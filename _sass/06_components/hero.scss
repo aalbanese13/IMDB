@@ -1,0 +1,49 @@
+.hero_block{
+  background: url('../assets/images/blackpanther.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  padding: 15%;
+  position: relative;
+  width: 100%;
+}
+
+.hero_heading {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+.search{
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 80%;
+}
+
+.search_bar {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.search_button {
+  background: $color-brand;
+  border-radius: 0 5px 5px 0;
+  border-style: none;
+  height: 40px;
+  position: absolute;
+  outline: none;
+  width: 40px;
+  // font-size: 20px;
+}
+
+.search_term {
+  border-radius: 5px 0 0 5px;
+  color: $color-primary;
+  float: left;
+  height: 40px;
+  width: 100%;
+
+}

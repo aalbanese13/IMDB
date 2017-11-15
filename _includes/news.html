@@ -1,0 +1,12 @@
+<div class="module">
+  <h1 class="module_heading">News</h1>
+  <ul>
+    {% for news in site.data.news %}
+      <li class="news">
+        <h2>{{ news.time }}-{{ news.publisher }}</h2>
+        <h3>{{ news.headline }}</h3>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

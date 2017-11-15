@@ -1,0 +1,15 @@
+.block_thirds {
+  width: 100%;
+}
+
+.block_item {
+  border: solid red 2px;
+  display: inline-block;
+  height: 230px;
+  margin: 20px 0px;
+  width: 100%;
+
+  @media (min-width: 800px) {
+    width: 32.72%;
+  }
+}
